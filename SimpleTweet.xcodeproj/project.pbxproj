@@ -21,6 +21,14 @@
 		EA740BC619626BC900F03376 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA740BA819626BC800F03376 /* UIKit.framework */; };
 		EA740BCE19626BC900F03376 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA740BCC19626BC900F03376 /* InfoPlist.strings */; };
 		EA740BD019626BC900F03376 /* SimpleTweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA740BCF19626BC900F03376 /* SimpleTweetTests.m */; };
+		EA740BE219626CA700F03376 /* CheatSheetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BDA19626CA700F03376 /* CheatSheetButton.png */; };
+		EA740BE319626CA700F03376 /* CheatSheetButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BDB19626CA700F03376 /* CheatSheetButton@2x.png */; };
+		EA740BE419626CA700F03376 /* HorizontalTablesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BDC19626CA700F03376 /* HorizontalTablesButton.png */; };
+		EA740BE519626CA700F03376 /* HorizontalTablesButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BDD19626CA700F03376 /* HorizontalTablesButton@2x.png */; };
+		EA740BE619626CA700F03376 /* PathfindingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BDE19626CA700F03376 /* PathfindingButton.png */; };
+		EA740BE719626CA700F03376 /* PathfindingButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BDF19626CA700F03376 /* PathfindingButton@2x.png */; };
+		EA740BE819626CA700F03376 /* UIKitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BE019626CA700F03376 /* UIKitButton.png */; };
+		EA740BE919626CA700F03376 /* UIKitButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BE119626CA700F03376 /* UIKitButton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		EA740BCB19626BC900F03376 /* SimpleTweetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTweetTests-Info.plist"; sourceTree = "<group>"; };
 		EA740BCD19626BC900F03376 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA740BCF19626BC900F03376 /* SimpleTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTweetTests.m; sourceTree = "<group>"; };
+		EA740BDA19626CA700F03376 /* CheatSheetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheatSheetButton.png; sourceTree = "<group>"; };
+		EA740BDB19626CA700F03376 /* CheatSheetButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CheatSheetButton@2x.png"; sourceTree = "<group>"; };
+		EA740BDC19626CA700F03376 /* HorizontalTablesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalTablesButton.png; sourceTree = "<group>"; };
+		EA740BDD19626CA700F03376 /* HorizontalTablesButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HorizontalTablesButton@2x.png"; sourceTree = "<group>"; };
+		EA740BDE19626CA700F03376 /* PathfindingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PathfindingButton.png; sourceTree = "<group>"; };
+		EA740BDF19626CA700F03376 /* PathfindingButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PathfindingButton@2x.png"; sourceTree = "<group>"; };
+		EA740BE019626CA700F03376 /* UIKitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIKitButton.png; sourceTree = "<group>"; };
+		EA740BE119626CA700F03376 /* UIKitButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIKitButton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +128,7 @@
 		EA740BAA19626BC800F03376 /* SimpleTweet */ = {
 			isa = PBXGroup;
 			children = (
+				EA740BD919626CA700F03376 /* Resources */,
 				EA740BB319626BC800F03376 /* AppDelegate.h */,
 				EA740BB419626BC800F03376 /* AppDelegate.m */,
 				EA740BB619626BC800F03376 /* Main.storyboard */,
@@ -150,6 +167,21 @@
 				EA740BCC19626BC900F03376 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA740BD919626CA700F03376 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA740BDA19626CA700F03376 /* CheatSheetButton.png */,
+				EA740BDB19626CA700F03376 /* CheatSheetButton@2x.png */,
+				EA740BDC19626CA700F03376 /* HorizontalTablesButton.png */,
+				EA740BDD19626CA700F03376 /* HorizontalTablesButton@2x.png */,
+				EA740BDE19626CA700F03376 /* PathfindingButton.png */,
+				EA740BDF19626CA700F03376 /* PathfindingButton@2x.png */,
+				EA740BE019626CA700F03376 /* UIKitButton.png */,
+				EA740BE119626CA700F03376 /* UIKitButton@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +260,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA740BE819626CA700F03376 /* UIKitButton.png in Resources */,
+				EA740BE619626CA700F03376 /* PathfindingButton.png in Resources */,
 				EA740BBD19626BC800F03376 /* Images.xcassets in Resources */,
+				EA740BE719626CA700F03376 /* PathfindingButton@2x.png in Resources */,
+				EA740BE919626CA700F03376 /* UIKitButton@2x.png in Resources */,
+				EA740BE219626CA700F03376 /* CheatSheetButton.png in Resources */,
+				EA740BE419626CA700F03376 /* HorizontalTablesButton.png in Resources */,
+				EA740BE319626CA700F03376 /* CheatSheetButton@2x.png in Resources */,
 				EA740BAF19626BC800F03376 /* InfoPlist.strings in Resources */,
 				EA740BB819626BC800F03376 /* Main.storyboard in Resources */,
+				EA740BE519626CA700F03376 /* HorizontalTablesButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
