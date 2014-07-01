@@ -29,6 +29,7 @@
 		EA740BE719626CA700F03376 /* PathfindingButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BDF19626CA700F03376 /* PathfindingButton@2x.png */; };
 		EA740BE819626CA700F03376 /* UIKitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BE019626CA700F03376 /* UIKitButton.png */; };
 		EA740BE919626CA700F03376 /* UIKitButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA740BE119626CA700F03376 /* UIKitButton@2x.png */; };
+		EA740BEB196270AD00F03376 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA740BEA196270AD00F03376 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		EA740BDF19626CA700F03376 /* PathfindingButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PathfindingButton@2x.png"; sourceTree = "<group>"; };
 		EA740BE019626CA700F03376 /* UIKitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIKitButton.png; sourceTree = "<group>"; };
 		EA740BE119626CA700F03376 /* UIKitButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIKitButton@2x.png"; sourceTree = "<group>"; };
+		EA740BEA196270AD00F03376 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA740BEB196270AD00F03376 /* Twitter.framework in Frameworks */,
 				EA740BA719626BC800F03376 /* CoreGraphics.framework in Frameworks */,
 				EA740BA919626BC800F03376 /* UIKit.framework in Frameworks */,
 				EA740BA519626BC800F03376 /* Foundation.framework in Frameworks */,
@@ -117,6 +120,7 @@
 		EA740BA319626BC800F03376 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA740BEA196270AD00F03376 /* Twitter.framework */,
 				EA740BA419626BC800F03376 /* Foundation.framework */,
 				EA740BA619626BC800F03376 /* CoreGraphics.framework */,
 				EA740BA819626BC800F03376 /* UIKit.framework */,
